@@ -1,0 +1,500 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    width: 100%;
+}
+.header-title {
+    background: url("../img/background01.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60.25%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.header-title h3 {
+    font-size: 62px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -178px;
+    z-index: 257;
+}
+.header-title p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 1.6;
+    text-align: center;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    margin-left: -383px;
+    width: 766px;
+    height: 84px;
+    z-index: 258;
+}
+.background {
+    background-color: rgb(20, 20, 20);
+    opacity: 0.651;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.login {
+    width: 960px;
+    position: absolute;
+    left: 50%;
+    top: 570px;
+    margin-left: -480px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255,0.2);
+    /*opacity: .5;*/
+    border-style: solid;
+    border-radius: 2px;
+    z-index: 240;
+    text-align: center;
+    padding-bottom: 50px;
+}
+input {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255,0.2);
+    outline: none;
+    margin-top: 60px;
+    border-radius: 2px;
+}
+.login h5 {
+    font-size: 16px;
+    line-height: 1.75;
+    font-weight: 300;
+    margin-top: 80px;
+}
+.login span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+#un,
+#up {
+    width: 250px;
+    line-height: 40px;
+    margin-left: -20px;
+    margin-right: 50px;
+    color: #fff;
+    text-indent: 20px;
+}
+#btn {
+    width: 100px;
+    background-color: #fff;
+    height: 40px;
+    margin-left: -30px;
+}
+input:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+input:focus::-moz-placeholder {
+    color: #fff;
+}
+input:focus:-moz-placeholder {
+    color: #fff;
+}
+input:focus:-ms-input-placeholder {
+    color: #fff;
+}
+.page-icon {
+    width: 100%;
+    height: 600px;
+}
+.page-body {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.page-body h5 {
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: 300;
+}
+.icon-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.icon-body .div-icon {
+    flex: 0 1 400px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: start;
+}
+.div-icon {
+    vertical-align: bottom;
+}
+.div-icon span {
+    font-size: 20px;
+}
+.div-icon p {
+    color: rgba(0,0,0, .5);
+    font-size: 14px;
+    margin-top: 5px;
+}
+.mobile-icon {
+    display: inline-block;
+    width: 23px;
+    height: 60px;
+    background: url("../icon/Iphone%20Icon.png") no-repeat;
+    margin-left: 15px;
+}
+.div-icon div {
+    width: 300px;
+    margin-left: 20px;
+    height: 80px;
+}
+.acc-icon {
+    display: inline-block;
+    width: 30px;
+    height: 60px;
+    background: url("../icon/Check%20Icon.png") no-repeat;
+    margin-left: 7px;
+}
+.fluid-icon {
+    display: inline-block;
+    width: 37px;
+    height: 60px;
+    background: url("../icon/Pencil%20Icon.png") no-repeat;
+}
+.cus-icon {
+    display: inline-block;
+    width: 37px;
+    height: 80px;
+    background: url("../icon/Settings%20Icon.png") no-repeat;
+}
+.page-second {
+    width: 100%;
+    background: url("../img/bg2.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50.18%;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.second-body {
+    margin-top: -50.18%;
+    position: relative;
+    z-index: 255;
+}
+.second-text {
+    width: 400px;
+    margin-left: 300px;
+}
+.second-text h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.second-text p {
+    font-size: 18px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.702);
+}
+.second-content {
+    width: 100%;
+    height: 610px;
+    margin: 100px 0;
+    position: relative;
+}
+.second-btn {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.second-btn button {
+    padding: 15px 40px;
+    margin: 0 10px;
+    border-radius: 2px;
+}
+.second-btn button:nth-of-type(1) {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.second-btn button:nth-of-type(2) {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+.secoond-left {
+    padding: 100px 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.second-right {
+    display: inline-block;
+    height: 400px;
+    width: 500px;
+    border: 1px solid #fff;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 50px 80px;
+    margin-left: 100px;
+    border-radius: 50px 0 0 50px;
+    position: absolute;
+    right: -152px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.page-third {
+    width: 100%;
+}
+.third-one {
+    border-bottom: 1px solid #999;
+}
+.third-one h3 {
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 60px;
+}
+.third-text {
+    display: flex;
+    width: 1000px;
+    margin: 60px auto;
+    justify-content: space-between;
+}
+.third-text .content {
+    flex: 0 1 250px;
+    text-align: center;
+}
+.third-text .content img {
+    margin-bottom: 20px;
+}
+.third-two {
+    width: 100%;
+    padding: 50px 0;
+    border-bottom: 1px solid #999;
+}
+.third-two .content {
+    width: 900px;
+    margin: 50px auto;
+    padding: 50px;
+    overflow: hidden;
+}
+.third-two .content .le {
+    float: left;
+}
+.third-two .content div {
+    width: 310px;
+    float: left;
+}
+.content p {
+    font-size: 16px;
+    color: rgba(20, 20, 20, 0.702);
+}
+.content .right {
+    margin: 30px 0 0 100px;
+}
+.content .left {
+    margin: 30px 100px 0 0;
+}
+.content h4 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.three-text {
+    width: 900px;
+    margin: 0 auto;
+}
+.three-text h3 {
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.three-text p {
+    text-align: center;
+    width: 600px;
+    font-size: 16px;
+    color: rgba(20, 20, 20, 0.702);
+    margin: 0 auto;
+}
+.three-img {
+    width: 1100px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.three-content {
+    width: 470px;
+    height: 340px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.c1 {
+    background: url("../img/1.png") no-repeat;
+}
+.c2 {
+    background: url("../img/2.png") no-repeat;
+}
+.c3 {
+    background: url("../img/3.png") no-repeat;
+}
+.c4 {
+    background: url("../img/4.png") no-repeat;
+}
+.three-content:hover {
+    filter: brightness(50%);
+    -webkit-filter:brightness(50%);
+}
+.three-content:hover .text{
+    display: block;
+}
+.text {
+    font-size: 20px;
+    color: #4ab0ff;
+    margin: 70px;
+    text-align: center;
+    display: none;
+}
+.text span:nth-of-type(2) {
+    font-size: 14px;
+}
+.three-icon {
+    margin-top: 40px;
+}
+.text i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #4ab0ff;
+    border-radius: 50%;
+    margin: 10px;
+    background: url("../img/Facebook%20Icon.png") no-repeat;
+    background-position: center;
+}
+.third-three {
+    border-bottom: 1px solid #999;
+}
+.form {
+    display: inline-block;
+    width: 400px;
+    border: 1px solid #999;
+    margin-left: 350px;
+    text-align: center;
+    margin-top: 60px;
+}
+.form input,
+.form textarea {
+    border: 1px solid #999;
+    width: 300px;
+    padding: 0;
+}
+.form input {
+    height: 40px;
+    margin: 20px 0;
+    text-indent: 10px;
+}
+.form input[type='submit'] {
+    background-color: #000;
+    color: #fff;
+}
+.form textarea {
+    height: 120px;
+    margin: 15px 0;
+    text-indent: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 16px;
+    resize:none;
+}
+.form h4 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.contact {
+    display: inline-block;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 150px;
+    vertical-align: top;
+}
+.contact h3 {
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+.contact>p {
+    font-size: 16px;
+    color: rgba(20, 20, 20, 0.702);
+    margin-bottom: 60px;
+}
+.contact .ic {
+    margin: 15px 0;
+}
+.contact .ic p {
+    font-size: 18px;
+    color: #000;
+    padding-left: 40px;
+}
+.map-icon {
+    background: url("../img/Map%20Icon.png") no-repeat;
+    background-position: 0 30%;
+}
+.phone-icon {
+    background: url("../img/Phone%20Icon.png") no-repeat;
+    background-position: 0 30%;
+}
+.email-icon {
+    background: url("../img/Mail%20Icon.png") no-repeat;
+    background-position: 0 70%;
+}
+footer {
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    margin-top: 100px;
+}
+ul {
+    list-style: none;
+}
+li a {
+    color: #898989;
+    text-decoration: none;
+}
+.footer ul li {
+    margin: 10px;
+}
+.footer ul li:first-child a {
+    color: #fff;
+    font-size: 20px;
+}
+.footer {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+footer ul {
+    float: left;
+    margin: 50px;
+}
+.enjoy {
+    width: 300px;
+    float: left;
+    margin: 50px;
+}
+.enjoy span {
+    color: #fff;
+    font-size: 20px;
+}
+.enjoy p {
+    color: #898989;
+    margin-top: 20px;
+}
